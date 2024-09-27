@@ -19,7 +19,7 @@ def allowed_file(filename):
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 def api_transform(style_choosen, file_path):
-    API_KEY = '884af8d3-f98e-4aa2-820d-30af4ebf1cbb'
+    API_KEY = ''
 
     # Configure API key authorization: Apikey
     configuration = cloudmersive_image_api_client.Configuration()
